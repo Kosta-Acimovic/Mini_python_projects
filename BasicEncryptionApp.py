@@ -1,6 +1,7 @@
-def crypted(something):
+def crypted():
+    m=input("Write message you want to encrypt:\t")
     encryption=""
-    for el in something:
+    for el in m:
         if el in "Aa":
             encryption=encryption+"lo"
         elif el in "Bb":
